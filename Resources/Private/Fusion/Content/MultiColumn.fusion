@@ -42,11 +42,11 @@ prototype(TechDivision.NodeTypes.FlexColumnLayouts:MultiColumn) < prototype(Neos
             xlFlexAlignContent = ${q(node).property('xlFlexAlignContent')}
         }
         verticalSeparator = TechDivision.NodeTypes.FlexColumnLayouts:Helper.CssClasses {
-            verticalSeparator = ${q(node).property('verticalSeparator') ? 'vertical-separator' : ''}
-            smVerticalSeparator = ${q(node).property('smVerticalSeparator') ? 'sm:vertical-separator' : ''}
-            mdVerticalSeparator = ${q(node).property('mdVerticalSeparator') ? 'md:vertical-separator' : ''}
-            lgVerticalSeparator = ${q(node).property('lgVerticalSeparator') ? 'lg:vertical-separator' : ''}
-            xlVerticalSeparator = ${q(node).property('xlVerticalSeparator') ? 'xl:vertical-separator' : ''}
+            verticalSeparator = ${q(node).property('verticalSeparator') ? 'divide-x' : ''}
+            smVerticalSeparator = ${q(node).property('smVerticalSeparator') ? 'sm:divide-x' : ''}
+            mdVerticalSeparator = ${q(node).property('mdVerticalSeparator') ? 'md:divide-x' : ''}
+            lgVerticalSeparator = ${q(node).property('lgVerticalSeparator') ? 'lg:divide-x' : ''}
+            xlVerticalSeparator = ${q(node).property('xlVerticalSeparator') ? 'xl:divide-x' : ''}
         }
     }
     containerStyles = TechDivision.NodeTypes.FlexColumnLayouts:Helper.VisualStyles
@@ -64,11 +64,11 @@ prototype(TechDivision.NodeTypes.FlexColumnLayouts:MultiColumn) < prototype(Neos
                 class = TechDivision.NodeTypes.FlexColumnLayouts:Helper.CssClasses {
                     flexItem = ${'flex-item'}
                     layout = TechDivision.NodeTypes.FlexColumnLayouts:Helper.CssClasses {
-                        basis = ${q(node).property('flexBasis') ? q(node).property('flexBasis') : (q(parentNode).property('layout') ? 'flex-basis-' + String.split(q(parentNode).property('layout'), '-')[columnIteration.index] : '')}
-                        smBasis = ${q(node).property('smFlexBasis') ? q(node).property('smFlexBasis') : (q(parentNode).property('smLayout') ? 'sm:flex-basis-' + String.split(q(parentNode).property('smLayout'), '-')[columnIteration.index] : '')}
-                        mdBasis = ${q(node).property('mdFlexBasis') ? q(node).property('mdFlexBasis') : (q(parentNode).property('mdLayout') ? 'md:flex-basis-' + String.split(q(parentNode).property('mdLayout'), '-')[columnIteration.index] : '')}
-                        lgBasis = ${q(node).property('lgFlexBasis') ? q(node).property('lgFlexBasis') : (q(parentNode).property('lgLayout') ? 'lg:flex-basis-' + String.split(q(parentNode).property('lgLayout'), '-')[columnIteration.index] : '')}
-                        xlBasis = ${q(node).property('xlFlexBasis') ? q(node).property('xlFlexBasis') : (q(parentNode).property('xlLayout') ? 'xl:flex-basis-' + String.split(q(parentNode).property('xlLayout'), '-')[columnIteration.index] : '')}
+                        basis = ${q(node).property('flexBasis') ? q(node).property('flexBasis') : (q(parentNode).property('layout') ? 'basis-' + String.split(q(parentNode).property('layout'), '-')[columnIteration.index] : '')}
+                        smBasis = ${q(node).property('smFlexBasis') ? q(node).property('smFlexBasis') : (q(parentNode).property('smLayout') ? 'sm:basis-' + String.split(q(parentNode).property('smLayout'), '-')[columnIteration.index] : '')}
+                        mdBasis = ${q(node).property('mdFlexBasis') ? q(node).property('mdFlexBasis') : (q(parentNode).property('mdLayout') ? 'md:basis-' + String.split(q(parentNode).property('mdLayout'), '-')[columnIteration.index] : '')}
+                        lgBasis = ${q(node).property('lgFlexBasis') ? q(node).property('lgFlexBasis') : (q(parentNode).property('lgLayout') ? 'lg:basis-' + String.split(q(parentNode).property('lgLayout'), '-')[columnIteration.index] : '')}
+                        xlBasis = ${q(node).property('xlFlexBasis') ? q(node).property('xlFlexBasis') : (q(parentNode).property('xlLayout') ? 'xl:basis-' + String.split(q(parentNode).property('xlLayout'), '-')[columnIteration.index] : '')}
                     }
                     shrink = TechDivision.NodeTypes.FlexColumnLayouts:Helper.CssClasses {
                         shrink = ${q(node).property('flexShrink')}

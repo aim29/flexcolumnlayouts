@@ -17,9 +17,9 @@
             values:
               '':
                 label: i18n
-              'flex-shrink':
+              'shrink':
                 label: i18n
-              'flex-shrink-0':
+              'shrink-0':
                 label: i18n
     smFlexShrink:
       type: string
@@ -35,9 +35,9 @@
             values:
               '':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.'
-              'sm:flex-shrink':
+              'sm:shrink':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink'
-              'sm:flex-shrink-0':
+              'sm:shrink-0':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink-0'
     mdFlexShrink:
       type: string
@@ -53,9 +53,9 @@
             values:
               '':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.'
-              'md:flex-shrink':
+              'md:shrink':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink'
-              'md:flex-shrink-0':
+              'md:shrink-0':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink-0'
     lgFlexShrink:
       type: string
@@ -71,9 +71,9 @@
             values:
               '':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.'
-              'lg:flex-shrink':
+              'lg:shrink':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink'
-              'lg:flex-shrink-0':
+              'lg:shrink-0':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink-0'
     xlFlexShrink:
       type: string
@@ -89,8 +89,8 @@
             values:
               '':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.'
-              'xl:flex-shrink':
+              'xl:shrink':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink'
-              'xl:flex-shrink-0':
+              'xl:shrink-0':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexAlignContentMixin:properties.flexShrink.selectBoxEditor.values.flex-shrink-0'
 

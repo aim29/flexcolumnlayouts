@@ -19,7 +19,7 @@
                 label: i18n
               'flex-wrap':
                 label: i18n
-              'flex-no-wrap':
+              'flex-nowrap':
                 label: i18n
               'flex-wrap-reverse':
                 label: i18n
@@ -39,7 +39,7 @@
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.'
               'sm:flex-wrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap'
-              'sm:flex-no-wrap':
+              'sm:flex-nowrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-no-wrap'
               'sm:flex-wrap-reverse':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap-reverse'
@@ -59,7 +59,7 @@
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.'
               'md:flex-wrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap'
-              'md:flex-no-wrap':
+              'md:flex-nowrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-no-wrap'
               'md:flex-wrap-reverse':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap-reverse'
@@ -79,7 +79,7 @@
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.'
               'lg:flex-wrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap'
-              'lg:flex-no-wrap':
+              'lg:flex-nowrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-no-wrap'
               'lg:flex-wrap-reverse':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap-reverse'
@@ -99,7 +99,7 @@
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.'
               'xl:flex-wrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap'
-              'xl:flex-no-wrap':
+              'xl:flex-nowrap':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-no-wrap'
               'xl:flex-wrap-reverse':
                 label: 'TechDivision.NodeTypes.FlexColumnLayouts:NodeTypes.FlexWrapMixin:properties.flexWrap.selectBoxEditor.values.flex-wrap-reverse'

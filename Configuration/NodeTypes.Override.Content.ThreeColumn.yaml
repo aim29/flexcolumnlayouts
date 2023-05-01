@@ -12,7 +12,7 @@
     label: i18n
   properties:
     layout:
-      defaultValue: '100-100-100'
+      defaultValue: 'full-full-full'
       ui:
         reloadIfChanged: true
         inspector:
@@ -20,21 +20,35 @@
           position: 'start'
           editorOptions:
             values: &3ColLayoutValues
+              '33-33-33':
+                []
+              '25-50-25':
+                []
+              '50-25-25':
+                []
+              '100-75-25':
+                []
+              '100-25-75':
+                []
+              '100-50-50':
+                []
+              '100-100-100':
+                []
               '':
                 label: 'none'
-              '33-33-33':
+              '1/3-1/3-1/3':
                 label: '33% / 33% / 33%'
-              '25-50-25':
+              '1/4-1/2-1/4':
                 label: '25% / 50% / 25%'
-              '50-25-25':
+              '1/2-1/4-1/4':
                 label: '50% / 25% / 25%'
-              '100-75-25':
+              'full-3/4-1/4':
                 label: '100% / 75% / 25%'
-              '100-25-75':
+              'full-1/4-3/4':
                 label: '100% / 25% / 75%'
-              '100-50-50':
+              'full-1/2-1/2':
                 label: '100% / 50% / 50%'
-              '100-100-100':
+              'full-full-full':
                 label: '100% / 100% / 100%'
     smLayout:
       type: string
@@ -50,7 +64,7 @@
               <<: *3ColLayoutValues
     mdLayout:
       type: string
-      defaultValue: '33-33-33'
+      defaultValue: '1/3-1/3-1/3'
       ui:
         label: 'Layout'
         reloadIfChanged: true

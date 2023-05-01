@@ -1,7 +1,7 @@
 $separatorWidth: 2px !default;
 
 @mixin vertical-separator($prefix: '', $color: 'black') {
-    .#{$prefix}vertical-separator {
+    .#{$prefix}divide-x {
         .flex-item {
             position: relative;
 

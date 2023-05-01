@@ -29,7 +29,7 @@
           label: 'Tablet (md) >= 768px'
           position: 20
           icon: 'icon-tablet'
-          collapsed: true
+          collapsed: false
 'TechDivision.NodeTypes.FlexColumnLayouts:BreakpointsMixin.Lg':
   abstract: true
   ui:

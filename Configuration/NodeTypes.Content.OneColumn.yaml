@@ -9,13 +9,15 @@
       type: 'TechDivision.NodeTypes.FlexColumnLayouts:FlexCollection.FirstColumn'
   properties:
     layout:
-      defaultValue: '100'
+      defaultValue: 'full'
       ui:
         reloadIfChanged: true
         inspector:
           editorOptions:
             values:
               '100':
+                []
+              'full':
                 label: '100%'
     flexDirection: [ ]
     flexWrap: [ ]

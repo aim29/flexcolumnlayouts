@@ -3,11 +3,12 @@ TechDivision:
     FlexColumnLayouts:
       cssClassMapping:
         bootstrap:
-
           'flex': 'd-flex'
 
-          'flex-col': 'flex-column'
-          'flex-col-reverse': 'flex-column-reverse'
+          'order-first': 'order-first'
+          'order-2': 'order-2'
+          'order-3': 'order-3'
+          'order-last': 'order-last'
 
           'sm:order-first': 'order-sm-first'
           'sm:order-2': 'order-sm-2'
@@ -29,20 +30,34 @@ TechDivision:
           'xl:order-3': 'order-xl-3'
           'xl:order-last': 'order-xl-last'
 
+          'flex-row': 'flex-row'
           'sm:flex-row': 'flex-sm-row'
           'md:flex-row': 'flex-md-row'
           'lg:flex-row': 'flex-lg-row'
           'xl:flex-row': 'flex-xl-row'
 
+          'flex-row-reverse': 'flex-row-reverse'
           'sm:flex-row-reverse': 'flex-sm-row-reverse'
           'md:flex-row-reverse': 'flex-md-row-reverse'
           'lg:flex-row-reverse': 'flex-lg-row-reverse'
           'xl:flex-row-reverse': 'flex-xl-row-reverse'
 
-          'sm:flex-no-wrap': 'flex-sm-nowrap'
-          'md:flex-no-wrap': 'flex-md-nowrap'
-          'lg:flex-no-wrap': 'flex-lg-nowrap'
-          'xl:flex-no-wrap': 'flex-xl-nowrap'
+          'flex-col': 'flex-column'
+          'sm:flex-col': 'flex-sm-column'
+          'md:flex-col': 'flex-md-column'
+          'lg:flex-col': 'flex-lg-column'
+          'xl:flex-col': 'flex-xl-column'
+
+          'flex-col-reverse': 'flex-column-reverse'
+          'sm:flex-col-reverse': 'flex-sm-column-reverse'
+          'md:flex-col-reverse': 'flex-md-column-reverse'
+          'lg:flex-col-reverse': 'flex-lg-column-reverse'
+          'xl:flex-col-reverse': 'flex-xl-column-reverse'
+
+          'sm:flex-nowrap': 'flex-sm-nowrap'
+          'md:flex-nowrap': 'flex-md-nowrap'
+          'lg:flex-nowrap': 'flex-lg-nowrap'
+          'xl:flex-nowrap': 'flex-xl-nowrap'
 
           'sm:flex-wrap-reverse': 'flex-sm-wrap-reverse'
           'md:flex-wrap-reverse': 'flex-lg-wrap-reverse'
@@ -154,13 +169,14 @@ TechDivision:
           'lg:flex-shrink': 'flex-lg-shrink-1'
           'xl:flex-shrink': 'flex-xl-shrink-1'
 
+          'flex-shrink-0': 'flex-sm-shrink-0'
           'sm:flex-shrink-0': 'flex-sm-shrink-0'
           'md:flex-shrink-0': 'flex-md-shrink-0'
           'lg:flex-shrink-0': 'flex-lg-shrink-0'
           'xl:flex-shrink-0': 'flex-xl-shrink-0'
 
-          'vertical-separator': 'vertical-separator'
-          'sm:vertical-separator': 'sm:vertical-separator'
-          'md:vertical-separator': 'md:vertical-separator'
-          'lg:vertical-separator': 'lg:vertical-separator'
-          'xl:vertical-separator': 'xl:vertical-separator'
+          'divide-x': 'vertical-separator'
+          'sm:divide-x': 'sm:vertical-separator'
+          'md:divide-x': 'md:vertical-separator'
+          'lg:divide-x': 'lg:vertical-separator'
+          'xl:divide-x': 'xl:vertical-separator'
