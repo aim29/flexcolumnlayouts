@@ -5,7 +5,7 @@ prototype(TechDivision.NodeTypes.FlexColumnLayouts:MultiColumn) < prototype(Neos
     }
 
     containerClasses = TechDivision.NodeTypes.FlexColumnLayouts:Helper.CssClasses {
-        flex = 'flex'
+        flex = 'flex gap-4'
         flexDirection = TechDivision.NodeTypes.FlexColumnLayouts:Helper.CssClasses {
             flexDirection = ${q(node).property('flexDirection') ? q(node).property('flexDirection') : 'flex-row'}
             smFlexDirection = ${q(node).property('smFlexDirection')}
