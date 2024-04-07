@@ -14,7 +14,7 @@ prototype(TechDivision.NodeTypes.FlexColumnLayouts:MultiColumn) < prototype(Neos
             xlFlexDirection = ${q(node).property('xlFlexDirection')}
         }
         flexWrap = TechDivision.NodeTypes.FlexColumnLayouts:Helper.CssClasses {
-            flexWrap = ${q(node).property('flexWrap') ? q(node).property('flexWrap') : 'flex-wrap'}
+            flexWrap = ${q(node).property('flexWrap') ? q(node).property('flexWrap') : ''}
             smFlexWrap = ${q(node).property('smFlexWrap')}
             mdFlexWrap = ${q(node).property('mdFlexWrap')}
             lgFlexWrap = ${q(node).property('lgFlexWrap')}
